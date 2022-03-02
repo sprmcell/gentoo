@@ -3,8 +3,7 @@ A couple off files from my gentoo install to make my next gentoo installation ju
 
 # Installation
 
-Yes i am aware that git is not preinstalled with gentoo.
-Wait until you chroot and can actually emerge packages, or links to this page
+Before you can emerge @world you need to edit your make.conf at this point emerge dev-cvs/git then replace your make.conf located in /etc/portage with my make.conf and edit what is needed, do this with the cp command so for example run "cp gentoo/64/EFI/make.conf /etc/portage/make.conf"
 
 # Future of this project
 
