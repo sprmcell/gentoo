@@ -3,7 +3,7 @@ A couple off files from my gentoo install to make my next gentoo installation ju
 
 # Installation
 
-Before you can emerge @world you need to edit your make.conf at this point emerge dev-cvs/git then replace your make.conf located in /etc/portage with my make.conf and edit what is needed, do this with the cp command so for example run "cp gentoo/64/EFI/make.conf /etc/portage/make.conf"
+Since git isnt preinstalled, u will need to use links to go to this github, and locate the make.conf you need and save the file
 
 # Future of this project
 
@@ -15,7 +15,7 @@ I dont read my emails lol, if you want to help me with this project join my disc
 
 # Discord 
 
-https://discord.gg/CYxzJvK8Cc
+https://discord.gg/QwvcY4uG52
 
 # Reddit
 
