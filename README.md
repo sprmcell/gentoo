@@ -7,7 +7,7 @@ Since git isnt preinstalled, u will need to use links to go to this github, and 
 
 # Future of this project
 
-for now i only have EFI-64, maybe eventually when i have the time i will install it on legacy and maybe a 32 bit system, i have a 64 bit legacy laptop lying around so i could maybe install gentoo on it and see what flags are mainly different
+I try to edit every now and then, i really want to add 32bit but havent gotten around doing it yet
 
 # How can i contact you? 
 
