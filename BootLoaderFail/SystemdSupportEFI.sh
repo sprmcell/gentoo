@@ -1,21 +1,23 @@
-i need to make this a shell script
-of course this is meant to be ran in the iso
+#!/bin/bash
 
+# Define boot & root partitions.
+boot_partition='sda1'
+root_partition='sda3'
 
-mount /dev/<root_partition> /mnt/gentoo
-cd /mnt/gentoo/ 
+# Script content.
+mount /dev/root/$root_partition /mnt/gentoo
+cd /mnt/gentoo
 mount --types proc /proc /mnt/gentoo/proc
 mount --rbind /sys /mnt/gentoo/sys
 mount --make-rslave /mnt/gentoo/sys
 mount --rbind /dev /mnt/gentoo/dev
 mount --make-rslave /mnt/gentoo/dev
 mount --bind /run /mnt/gentoo/run
-mount --make-slave /mnt/gentoo/run 
+mount --make-slave /mnt/gentoo/run
 chroot /mnt/gentoo /bin/bash
-mount /dev/<boot_partiton> /boot/EFI
+mount /dev/$boot_partition /boot/EFI
 grub-install --target=x86_64-efi --efi-directory=/boot
 grub-mkconfig -o /boot/grub/grub.cfg
 exit
-cd
 umount -R /mnt
 reboot
