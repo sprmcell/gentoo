@@ -15,7 +15,7 @@ I dont read my emails lol, if you want to help me with this project join my disc
 
 # Discord 
 
-https://discord.gg/QwvcY4uG52
+https://discord.gg/DjMQu37Vwx
 
 # Reddit
 
